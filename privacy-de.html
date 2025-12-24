@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookee - Datenschutz</title>
+  <style>
+    :root {
+      --orange: #F06449;
+      --green: #0C8346;
+      --green-low: rgba(3,100,50,0.67);
+      --white: #F8F8F8;
+      --black: #0B0B0B;
+      --dark-gray: #767676;
+      --light-gray: #B8B8B8;
+      --m: 16px;
+      --l: 24px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--white);
+      color: var(--black);
+      margin: 0;
+      padding: var(--m);
+      line-height: 1.5;
+    }
+
+    h1 {
+      color: var(--green);
+      margin-bottom: var(--m);
+    }
+
+    h2 {
+      color: var(--orange);
+      margin-top: var(--l);
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--orange);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: var(--m);
+      box-shadow: 0 4px 12px rgba(11,11,11,0.1);
+      border-radius: 8px;
+      background-color: var(--white);
+    }
+
+    ul {
+      padding-left: var(--l);
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: var(--m);
+    }
+
+    footer {
+      text-align: center;
+      margin-top: var(--l);
+      font-size: 0.9em;
+      color: var(--light-gray);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Datenschutz bei Cookee</h1>
+
+    <p>Wir nehmen den Schutz deiner Daten ernst. Diese Datenschutzerklärung informiert dich darüber, welche Daten wir sammeln, wie wir sie verwenden und welche Rechte du hast.</p>
+
+    <h2>Welche Daten sammeln wir?</h2>
+    <ul>
+      <li>Persönliche Daten wie E-Mail-Adresse, die du bei der Registrierung über Firebase Auth angibst.</li>
+      <li>App-Daten wie deine gespeicherten Rezepte und zugehörige Bilder.</li>
+      <li>Technische Daten, die für den Betrieb und die Sicherheit der App erforderlich sind.</li>
+    </ul>
+
+    <h2>Wie verwenden wir deine Daten?</h2>
+    <ul>
+      <li>Zur Authentifizierung und Verwaltung deines Kontos.</li>
+      <li>Zur Speicherung und Anzeige deiner eigenen Rezepte und Bilder.</li>
+      <li>Zur Verwaltung und Verbesserung der App durch den Betreiber.</li>
+    </ul>
+
+    <h2>Wer hat Zugriff auf die Daten?</h2>
+    <p>Nur du als Nutzer kannst deine eigenen Rezepte und Bilder sehen, wenn du eingeloggt bist. Der Betreiber der App hat als Admin Zugriff auf alle Daten in Firebase für Verwaltungszwecke. Es werden keine Daten an Dritte weitergegeben, außer an Firebase als technischen Dienstleister.</p>
+
+    <h2>Datenspeicherung und Sicherheit</h2>
+    <p>Die Daten werden sicher in Firebase Firestore und Firebase Storage gespeichert. Firestore Security Rules und Authentifizierung sorgen dafür, dass nur berechtigte Personen Zugriff haben.</p>
+
+    <h2>Deine Rechte</h2>
+    <ul>
+      <li>Zugriff auf deine gespeicherten Daten.</li>
+      <li>Löschung oder Änderung deiner Daten.</li>
+      <li>Kontakt für Datenschutzfragen: <a href="mailto:cookeecooking@gmail.com">cookeecooking@gmail.com</a></li>
+    </ul>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Cookee
+  </footer>
+</body>
+</html>
